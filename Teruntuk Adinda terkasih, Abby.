@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Abby</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Great+Vibes&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paper {
+    background: rgba(255, 248, 230, 0.92);
+    padding: 40px;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    line-height: 1.8;
+    color: #3b2f2f;
+}
+
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.signature {
+    margin-top: 40px;
+}
+
+.name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="paper fade-in">
+    <div class="title">Untuk Abby,</div>
+
+    <p><strong>Adinda yang Kanda sayangi,</strong></p>
+
+    <p>
+    Perlahan, tanpa banyak kata, Adinda telah menjadi bagian penting dalam hidup Kanda. 
+    Ada ketenangan yang Kanda rasakan setiap kali mengingatmu, seolah semua yang berjalan 
+    terasa lebih sederhana dan lebih berarti.
+    </p>
+
+    <p>
+    Kanda tidak pandai merangkai janji yang terlalu tinggi, namun Kanda tahu satu hal: 
+    Kanda ingin berjalan berdampingan dengan Adinda. Dalam hari yang tenang maupun saat 
+    langkah terasa berat, Kanda ingin tetap ada—menemani, mendengar, dan saling menguatkan.
+    </p>
+
+    <p>
+    Kebersamaan dengan Adinda bukan tentang hal besar, melainkan tentang hal-hal kecil yang 
+    ingin terus dijaga. Percakapan sederhana, tawa yang tidak dibuat-buat, dan rasa nyaman 
+    yang tumbuh tanpa dipaksa. Dari situlah Kanda berharap kita bisa melangkah lebih jauh, 
+    perlahan namun pasti.
+    </p>
+
+    <p>
+    Jika Adinda berkenan, Kanda ingin terus berada di sisi Adinda. Tidak terburu-buru, 
+    tidak pula berlebihan—cukup saling menjaga, dan membiarkan waktu membawa kita menuju 
+    kebersamaan yang lebih panjang.
+    </p>
+
+    <div class="signature">
+        <p>Sekian dari Kanda.<br>
+        Dengan perasaan yang tulus,</p>
+
+        <div class="name">Kanda</div>
+    </div>
+</div>
+
+</body>
+</html>
